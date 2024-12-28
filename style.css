@@ -1,0 +1,37 @@
+.main {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading-text {
+    color: aqua;
+}
+
+.background-color1 {
+    background-color: rgba(0, 255, 255, 0.745);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 70%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
